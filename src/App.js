@@ -1,11 +1,12 @@
-import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import Header from "./components/Header.jsx";
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <h1>Hello, World!</h1>
-    </div>
+    <Router>
+      <Header />
+    </Router>
   );
-}
+};
 
 export default App;
