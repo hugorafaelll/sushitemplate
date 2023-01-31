@@ -1,8 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
 import Button from "@mui/material/Button";
-import "./slick.css";
-import "./slick-theme.css";
 
 import img1 from "../assets/image/capa.jpg";
 import img2 from "../assets/image/capa2.jpg";

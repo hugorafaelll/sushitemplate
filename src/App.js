@@ -1,7 +1,6 @@
 import { BrowserRouter as Router } from "react-router-dom";
 import Header from "./components/Header";
 import { Container } from "@material-ui/core";
-import SliderComponent from "./components/SliderComponent";
 import Exemplo from "./components/exemplo/Exemplo";
 
 const App = () => {
@@ -10,7 +9,7 @@ const App = () => {
       <Router>
         <Header />
       </Router>
-      <SliderComponent />
+
       <Exemplo />
     </Container>
   );
